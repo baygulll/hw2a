@@ -1,0 +1,4 @@
+1. The change inside increment_int_a would not change the variable after the function call
+2. The change inside increment_int_b would change the variable b after the function call
+3. The answers differ because function a passes an integer in. Integers are immutable, so the value of a will not be changed. Function b, on the other hand, passes in
+   a list. Lists are mutable, so the variable b is changed after the function call
